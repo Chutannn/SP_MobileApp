@@ -1,0 +1,151 @@
+# ==============================================================================
+# Git Ignore for Pembukuan SP (Sari Purnama)
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# Logo & Detail Produk / Bisnis Sari Purnama (Privat)
+# ------------------------------------------------------------------------------
+assets/logo*
+assets/*.png
+assets/*.jpg
+assets/*.jpeg
+assets/*.webp
+!assets/.gitkeep
+*logo*
+*logo_sp*
+*sari_purnama*
+*sari-purnama*
+*saripurnama*
+*sari_purnama*.*
+*sari-purnama*.*
+*saripurnama*.*
+*detail*sari*
+*nota*
+*po_sample*
+*contoh_po*
+
+# ------------------------------------------------------------------------------
+# File Dokumen PDF & Ekspor Hasil Cetak
+# ------------------------------------------------------------------------------
+*.pdf
+PO_*.pdf
+**/PO_*.pdf
+*.csv
+*.xlsx
+
+# ------------------------------------------------------------------------------
+# Flutter / Dart / Pub
+# ------------------------------------------------------------------------------
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+**/build/
+**/doc/api/
+.fvm/
+flutter_*.png
+
+# Symbolication & Obfuscation
+app.*.symbols
+app.*.map.json
+
+# ------------------------------------------------------------------------------
+# Android
+# ------------------------------------------------------------------------------
+/android/.gradle/
+/android/local.properties
+/android/key.properties
+/android/app/debug/
+/android/app/profile/
+/android/app/release/
+/android/gradleBuild/
+/android/captures/
+*.keystore
+*.jks
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# ------------------------------------------------------------------------------
+# iOS & macOS
+# ------------------------------------------------------------------------------
+**/ios/Flutter/.last_build_id
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/app.flx
+**/ios/Flutter/app.zip
+**/ios/Flutter/flutter_assets/
+**/ios/Pods/
+**/ios/.symlinks/
+**/ios/profile
+**/macos/Flutter/ephemeral/
+**/macos/Pods/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+xcuserdata/
+*.xccheckout
+*.moved-aside
+DerivedData/
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# ------------------------------------------------------------------------------
+# Windows & Linux Desktop
+# ------------------------------------------------------------------------------
+/windows/flutter/ephemeral/
+/windows/build/
+/linux/flutter/ephemeral/
+/linux/build/
+
+# ------------------------------------------------------------------------------
+# IDEs & Editor Configuration
+# ------------------------------------------------------------------------------
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.project
+.classpath
+.settings/
+
+# ------------------------------------------------------------------------------
+# Environment & Rahasia / Secrets
+# ------------------------------------------------------------------------------
+.env
+.env.*
+*.env
+secrets.*
+credentials.*
+google-services.json
+GoogleService-Info.plist
+
+# ------------------------------------------------------------------------------
+# Sistem Operasi & File Sementara
+# ------------------------------------------------------------------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.class
+*.log
+*.tmp
+*.bak
+*.swp
+*~
+__pycache__/
+*.pyc
+.history
+.svn/
